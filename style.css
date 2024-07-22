@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#calculator {
+    background: #f1f1f1;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#display {
+    font-size: 1.5rem;
+    height: 50px;
+    text-align: right;
+}
+
+button {
+    font-size: 1.25rem;
+    height: 60px;
+}
+
+button.operator {
+    background-color: #FF9900;
+    color: white;
+}
+
+button.number {
+    background-color: #555;
+    color: white;
+}
+
+.d-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
